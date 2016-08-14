@@ -1,0 +1,29 @@
+.Header2, .Header3{
+  display: flex;
+  flex-direction: row;
+  background: #0f2f49;
+  justify-content: space-around;
+  font-family: helvetica;
+  font-size: .7em;
+  letter-spacing: .1em;
+  padding: .7em;
+  border-bottom: rgba(255,255,255, .4);
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+
+.Header2 a{
+  color: lightgray;
+  text-decoration: none;
+}
+
+.Header2 a:hover{
+  color: white;
+}
+
+.banner{
+  font-family: noteworthy;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .2em;
+}

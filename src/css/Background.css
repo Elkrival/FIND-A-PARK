@@ -1,0 +1,114 @@
+.full-banner{
+  background: linear-gradient(to left, #56ab2f , #a8e063);
+  background: url("./banner.jpg");
+  background: url("./bannerHover.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition:
+   width 1.5s,
+   height 1.5s,
+   background 1s,
+   transform 2s,
+   color 2s,
+   border 1s;
+}
+
+.full-banner:hover{
+  background: url("./bannerHover.jpg");
+  background: url("./banner.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.back{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition:
+   width 1.5s,
+   height 1.5s,
+   background 1s,
+   transform 2s,
+   color 2s,
+   border 1s;
+}
+
+h5{
+  border-bottom: 2px solid #490f2f;
+  width: 50%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  color: #490f2f;
+  font-size: 2em;
+  margin-bottom: 3%;
+  transition:
+   width 1.5s,
+   height 1.5s,
+   background 2s,
+   transform 2s,
+   color 2s,
+   border 1s;
+}
+
+.pTag{
+  display: inline-block;
+  transition:
+   width 1.5s,
+   height 1.5s,
+   background 2s,
+   transform 2s,
+   color 2s,
+   border 1s;
+}
+
+.flex-banner{
+  display: flex;
+  flex-direction: row;
+  transition:
+   width 1.5s,
+   height 1.5s,
+   background 2s,
+   transform 2s,
+   color 2s,
+   border 1s;
+}
+
+.image-rikki, .image-elena, .image-ivan{
+  margin: 2em;
+  border-radius: 80px;
+  height: 150px;
+  width: 150px;
+  border: 4px solid rgba(255,255,255, .83);
+  box-sizing: border-box;
+  background: gray;
+  /*transition:*/
+ transition:
+  width 1.5s,
+  height 1.5s,
+  background 2s,
+  transform 2s,
+  color 2s,
+  border 1s;
+}
+
+.image-rikki:hover{
+  border: 3px solid  rgba(15,47,73, .5);
+}
+
+.image-rikki{
+  background: url("./Rikki.jpg");
+  background-size: cover;
+  background-position: top 20% center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}

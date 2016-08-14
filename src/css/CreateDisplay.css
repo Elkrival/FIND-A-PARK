@@ -1,0 +1,145 @@
+.createDisplay{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Helvetica";
+  text-transform: capitalize;
+  justify-content: center;
+}
+
+.cardDisplay{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted #3B4E63;
+  font-size: .5em;
+  width: 20%;
+  margin: 1em;
+  border-radius: 5px;
+  justify-content: center;
+  width: 30%;
+}
+
+.cardDisplayFav{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted #3B4E63;
+  font-size: .5em;
+  margin: 1em;
+  border-radius: 5px;
+  justify-content: center;
+  width: 25%;
+  padding-bottom: 1em;
+}
+
+ul li{
+  text-align: left;
+}
+
+ul{
+  padding: 0em;
+  width: 100%;
+  padding: .3em .1em 0em 4em;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-result-info{
+  padding: .5em;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+/*.column{
+  width: 100%;
+}*/
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content:center;
+}
+
+.row-del{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.favorite, .delete, .globe{
+  color: #0f2f49;
+  border: 1px solid #0f2f49;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+
+.delete{
+  color: #ff8282;
+  font-weight: bold;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.globe{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  width: 50%
+}
+.favorite:hover, .globe:hover{
+  background: #efebee;
+  color: #643c59;
+  border: 1px solid #643c59;
+  cursor: pointer;
+}
+
+.delete:hover{
+  color: red;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+}
+
+.linkA{
+  color:  #63a8e0;
+  text-decoration:none;
+  padding: .2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 3px;
+  transition:
+    width 1.5s,
+    height 1.5s,
+    background 2s,
+    -webkit-transform 2s,
+    color 2s;
+}
+
+.linkA:hover{
+  text-decoration: underline;
+  color: #2F56AB;
+}
+
+.last{
+  width: 40%;
+}
+
+.last2{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.35em;
+}
+
+.fav{
+  width: 30%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.update{
+  height: 2.7em;
+}
